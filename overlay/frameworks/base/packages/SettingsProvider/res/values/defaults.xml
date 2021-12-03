@@ -23,6 +23,9 @@
 
     <!-- Set the automatic brightness mode on by default -->
     <bool name="def_screen_brightness_automatic_mode">true</bool>
+    
+    <!-- Disable dial pad tones by default -->
+    <bool name="def_dtmf_tones_enabled">false</bool>
 
     <!-- Default screen brightness, from 0 to 255. 78 is 30%. -->
     <integer name="def_screen_brightness">78</integer>
@@ -35,4 +38,16 @@
 
     <!-- Disable UI touch haptic feedback by default -->
     <bool name="def_haptic_feedback">false</bool>
+
+    <!-- Disable screen locking sounds by default -->
+    <integer name="def_lockscreen_sounds_enabled">0</integer>
+
+    <!-- Enable vibrate for calls by default -->
+    <bool name="def_vibrate_when_ringing">true</bool>
+
+     <!-- Disable charging sounds by default -->  
+    <bool name="def_charging_sounds_enabled">false</bool>
+
+     <!-- Enable notification bubbles by default -->
+    <bool name="def_notification_bubbles">true</bool>
 </resources>
